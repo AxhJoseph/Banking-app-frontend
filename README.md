@@ -13,16 +13,11 @@ I created a modern, responsive mobile banking web app frontend in just *5 hours*
   - Send Money
   - Add Money
   - Receive Money
- 
 
+## Demo
+Check out the live demo here: [Live Preview](https://axhjoseph.github.io/Banking-app-frontend/)
 
-![Screenshot 2024-12-26 120727](https://github.com/user-attachments/assets/b554c8d2-c5a3-49bd-bc28-7c5341207ec1)
-
-
-
-![Screenshot 2024-12-26 120706](https://github.com/user-attachments/assets/9c3a0ea3-35b8-4d46-9b0f-0af1f3c2a508)
-
-
+*Note:* This app was designed and optimized for mobile devices. For the best experience, please switch to mobile view or resize your browser window to simulate a mobile screen.
 
 ## Technologies Used
 - *Tailwind CSS*: For rapid and modern styling.
@@ -32,7 +27,8 @@ I created a modern, responsive mobile banking web app frontend in just *5 hours*
 While this is a frontend project, it can easily be extended into a fully functional app by integrating *JavaScript* for interactivity and backend services for managing data.
 
 ## Author
-Developed by [Ashish Joseph](https://github.com/AxhJoseph). Feel free to reach out or share your feedback!
+Developed by [Ashish Joseph](https://github.com/axhjoseph).  
+Feel free to reach out or share your feedback!
 
 ## Acknowledgments
 Special thanks to Tailwind CSS for simplifying modern design implementation.
