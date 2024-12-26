@@ -13,7 +13,13 @@ I created a modern, responsive mobile banking web app frontend in just *5 hours*
   - Send Money
   - Add Money
   - Receive Money
+ 
+
+
 ![Screenshot 2024-12-26 120727](https://github.com/user-attachments/assets/b554c8d2-c5a3-49bd-bc28-7c5341207ec1)
+
+
+
 ![Screenshot 2024-12-26 120706](https://github.com/user-attachments/assets/9c3a0ea3-35b8-4d46-9b0f-0af1f3c2a508)
 
 
