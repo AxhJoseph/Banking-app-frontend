@@ -1,95 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="main w-full h-screen bg-purple-300 overflow-x-hidden">
-      <div class="container flex justify-between items-center px-3 py-8">
-        <i class="ri-menu-2-line text-xl hover: cursor-pointer"></i>
-        <div class="right-nav flex gap-4">
-          <i
-            class="ri-notification-4-line hover: cursor-pointer text-lg rounded-full p-2 w-10 h-10 flex flex items-center justify-center bg-purple-400"
-          ></i>
-          <i
-            class="ri-user-line align-middle hover: cursor-pointer text-lg p-2"
-          ></i>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;700&display=swap"
+    rel="stylesheet"
+  >
+  <title>Responsive Credit Card</title>
+</head>
+<body>
+  <div class="main w-full h-screen bg-purple-300 overflow-x-hidden">
+    <!-- Navbar -->
+    <div class="container flex justify-between items-center px-3 py-8">
+      <i class="ri-menu-2-line text-xl cursor-pointer"></i>
+      <div class="right-nav flex gap-4">
+        <i class="ri-notification-4-line text-lg rounded-full p-2 w-10 h-10 flex items-center justify-center bg-purple-400"></i>
+        <i class="ri-user-line text-lg p-2 cursor-pointer"></i>
       </div>
-      <div class="content">
-        <h5 class="ml-3 font-['Merriweather Sans'] font-semibold text-base">
-          Your card information
-        </h5>
-        <div class="title flex px-3 relative">
-          <h3 class="font-['Merriweather Sans'] font-bold text-5xl">
-            All Credit<br />Cards
-          </h3>
-          <h4
-            class="font-['Merriweather Sans'] font-semibold text-xl text-gray-500 ml-3 absolute bottom-0 left-32"
-          >
-            (2)
-          </h4>
-          <div
-            class="add absolute right-3 bottom-0 rounded-full w-20 h-10 flex items-center border-2 border-black justify-center cursor-pointer text-sm"
-          >
-            <h5>Add <i class="ri-add-line"></i></h5>
-          </div>
-        </div>
-      </div>
-      <div class="cards flex flex-col relative items-center mt-5 mb-[65px]">
-        <div
-          class="card1 w-[95%] rounded-xl aspect-[16/9] bg-gray-200 bg-purple-600 p-2 flex justify-between text-xl"
-        >
-          <h3 class="mt-1 font-bold">**** 5482</h3>
-          <i class="ri-visa-line text-5xl"></i>
-        </div>
-        <div
-          class="card2 z-10 w-[95%] rounded-xl aspect-[16/9] bg-slate-950 absolute top-12 p-2 text-white flex justify-between text-xl"
-        >
-          <h3 class="mt-1 font-bold">**** 7562</h3>
-          <i class="ri-mastercard-line text-5xl"></i>
-        </div>
-        <div class="card-bottom flex absolute z-20 w-[95%] h-12 top-[150px]">
-          <div class="d1 w-[60%] h-full px-2 text-white">
-            <h4 class="text-slate-500 text-sm">Card Owner</h4>
-            <h3 class="font-normal">Ashish Joseph</h3>
-          </div>
-          <div
-            class="d2 w-[40%] h-full px-3 py-1 text-white flex justify-end items-end"
-          >
-            <h4 class="font-semibold">04/31</h4>
-          </div>
-        </div>
-      </div>
-      <div class="transac">
-        <div class="container flex justify-between items-center px-3">
-          <div class="tran1">
-            <h5 class="font-normal text-sm">Latest</h5>
-            <h4 class="font-bold text-2xl">Transactions</h4>
-          </div>
-          <div class="tran2">
-            <i class="ri-arrow-right-up-line text-4xl hover:cursor-pointer"></i>
-          </div>
-        </div>
-        <div class="buttons flex justify-center align-middle gap-10 px-2 pt-8">
-          <div class="send flex flex-col items-center"><i class="ri-arrow-up-line bg-purple-400 rounded-full text-4xl px-3 py-2 hover:cursor-pointer"></i><h4 class="text-lg font-semibold">Send</h4></div>
-          <div class="send flex flex-col items-center"><i class="ri-arrow-down-line bg-purple-400 rounded-full text-4xl px-3 py-2 hover:cursor-pointer"></i><h4 class="text-lg font-semibold">Receive</h4></div>
-          <div class="send flex flex-col items-center"><i class="ri-add-line bg-purple-400 rounded-full text-4xl px-3 py-2 hover:cursor-pointer"></i><h4 class="text-lg font-semibold">Add</h4></div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+      <h5 class="ml-3 font-['Merriweather Sans'] font-semibold text-base">
+        Your card information
+      </h5>
+      <div class="title flex px-3 relative">
+        <h3 class="font-['Merriweather Sans'] font-bold text-5xl">
+          All Credit<br>Cards
+        </h3>
+        <h4 class="font-['Merriweather Sans'] font-semibold text-xl text-gray-500 ml-3 absolute bottom-0 left-32">
+          (2)
+        </h4>
+        <div class="add absolute right-3 bottom-0 rounded-full w-20 h-10 flex items-center border-2 border-black justify-center cursor-pointer text-sm">
+          <h5>Add <i class="ri-add-line"></i></h5>
         </div>
       </div>
     </div>
-  </body>
+
+    <!-- Cards -->
+    <div class="cards flex flex-col items-center mt-5 mb-[65px]">
+      <!-- Card 1 -->
+      <div class="card1 w-[95%] rounded-xl aspect-[16/9] bg-purple-600 p-4 flex justify-between text-xl text-white">
+        <h3 class="mt-1 font-bold">**** 5482</h3>
+        <i class="ri-visa-line text-5xl"></i>
+      </div>
+      <!-- Card 2 -->
+      <div class="card2 z-10 w-[95%] rounded-xl aspect-[16/9] bg-slate-950 absolute top-12 p-4 text-white flex justify-between text-xl">
+        <h3 class="mt-1 font-bold">**** 7562</h3>
+        <i class="ri-mastercard-line text-5xl"></i>
+      </div>
+      <!-- Card Bottom -->
+      <div class="card-bottom flex absolute z-20 w-[95%] h-12 top-[150px]">
+        <div class="d1 w-[60%] px-2 text-white">
+          <h4 class="text-slate-500 text-sm">Card Owner</h4>
+          <h3 class="font-normal">Ashish Joseph</h3>
+        </div>
+        <div class="d2 w-[40%] px-3 py-1 text-white flex justify-end items-end">
+          <h4 class="font-semibold">04/31</h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- Transactions -->
+    <div class="transac">
+      <div class="container flex justify-between items-center px-3">
+        <div class="tran1">
+          <h5 class="font-normal text-sm">Latest</h5>
+          <h4 class="font-bold text-2xl">Transactions</h4>
+        </div>
+        <div class="tran2">
+          <i class="ri-arrow-right-up-line text-4xl cursor-pointer"></i>
+        </div>
+      </div>
+      <div class="buttons flex justify-center gap-10 px-2 pt-8">
+        <div class="send flex flex-col items-center">
+          <i class="ri-arrow-up-line bg-purple-400 rounded-full text-4xl px-3 py-2 cursor-pointer"></i>
+          <h4 class="text-lg font-semibold">Send</h4>
+        </div>
+        <div class="send flex flex-col items-center">
+          <i class="ri-arrow-down-line bg-purple-400 rounded-full text-4xl px-3 py-2 cursor-pointer"></i>
+          <h4 class="text-lg font-semibold">Receive</h4>
+        </div>
+        <div class="send flex flex-col items-center">
+          <i class="ri-add-line bg-purple-400 rounded-full text-4xl px-3 py-2 cursor-pointer"></i>
+          <h4 class="text-lg font-semibold">Add</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
