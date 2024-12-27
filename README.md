@@ -22,7 +22,7 @@ I created a modern, responsive mobile banking web app frontend in just *5 hours*
 
 
 ## Demo
-Check out the live demo here: [Live Preview](https://axhjoseph.github.io/Banking-app-frontend/)
+Check out the live demo here: [Updating layout please visit later](https://axhjoseph.github.io/Banking-app-frontend/)
 
 *Note:* This app was designed and optimized for mobile devices. For the best experience, please switch to mobile view or resize your browser window to simulate a mobile screen.
 
